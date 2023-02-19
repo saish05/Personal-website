@@ -1,0 +1,557 @@
+body
+{
+    margin: 0;
+    
+}
+.navbar .collapse,.navbar .navbar-collapse,.navbar .profile, .nav-expand-lg .navbar-collapse,.navbar-expand-lg .navbar-nav
+{
+    flex-direction : column;
+    align-items : flex-start;   
+}
+.navbar-toggler
+{
+    background-color: #fff;
+}
+#navbarTogglerDemo01
+{
+    align-items: flex-start;
+    background-color: #040b14;
+    width: 20rem;
+    height: 100vh;
+    padding: 0px;
+    
+}
+.navbar
+{
+    position: fixed;
+    display: inline-block;
+    padding: 0;
+    z-index: 2;
+}
+.navbar-nav
+{
+
+    padding-top: 20px;
+}
+
+.name
+{   
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.img-fluid
+{   
+  margin: 0 auto;
+  display: block;
+  width: 120px;
+  border: 8px solid #2c2f3f;
+}
+ .profile
+{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 25px;
+} 
+.navbar-nav a
+{
+    
+    color: #fff;
+}
+.icons 
+{
+    background: #212431;
+    color: #fff;
+    line-height: 1;
+    padding: 9px 0;
+    border-radius: 50%;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin: 1.5px;
+  }
+  .icons:hover {
+    background: #149ddd;
+    color: #fff;
+  }
+
+.navbar li
+{
+    margin: 0px 3px;
+    color: #fff;
+    
+}
+.nav-item i
+{
+    margin-left: 5px;
+    margin-right: 10px;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+}
+.nav-item i:hover
+{
+    color: #149ddd;
+}
+.set
+{
+    margin-left: 10px;
+}
+
+nav .navbar-nav li a{
+    color: white !important;
+    }
+nav .navbar-nav li a:hover
+{
+    color: #808080 !important;  
+}
+.rightmost
+{
+    margin-top: 10px;
+    position:fixed;
+    /* left :90%; */
+    top: 7%;
+    right: 10%;
+}
+#name2 h1 {
+    margin: 0 0 10px 0;
+    font-size: 74px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff ;
+    font-family: 'Tiro Telugu', serif;
+  }
+  
+  #name2 p {
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #name2 p span {
+    color: #fff;
+    padding-bottom: 4px;
+    letter-spacing: 1px;
+    border-bottom: 3px solid #149ddd;
+  }       
+ 
+@media (min-width :992px)
+  {
+    
+    .content
+    {
+        position: absolute;
+        top: 40%;
+        left: 35%;
+    }
+    #firstpage
+    {
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment:fixed ;
+        background-position: center;
+        background-image: url('images/sai1.png');
+        background-position: 230px;
+       
+    }
+    
+  }
+  
+   @media (max-width: 992px) {
+
+    #firstpage
+    {
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment:fixed ;
+        background-position: center;
+        background-image: url('images/sai2.png');
+    
+        
+    }
+    .content 
+    {
+      position: absolute;
+        top: 35%;
+        left :10%;
+        
+    }
+    #name2 h1 {
+      font-size: 60px;
+      line-height: 36px;
+      font-weight: bolder;
+    }
+    #name2 p span {
+        font-size: 25px;
+      }
+    
+  }
+         
+
+  @media (min-width :992px)
+  {
+    #about
+    {
+      margin-left: 300px;
+    }
+    #education
+    {
+      margin-left: 300px;
+    }
+    #experience
+    {
+      margin-left: 300px;
+    }
+    #skills
+    {
+      margin-left: 300px;
+    }
+    #contact
+    {
+      margin-left: 300px;
+    }
+    
+  }
+  #about
+    {
+      position: absolute;
+      top: 100vh;
+      padding-top: 30px;
+      padding-left: 60px;
+    
+    }
+    #education
+    {
+        position: absolute;
+        top: 200vh;
+        padding-left: 60px;
+    }
+    #experience
+    {
+        position: absolute;
+        top: 380vh;
+        padding-left: 60px;
+    }
+    #skills
+    {
+        position: absolute;
+        top: 300vh;
+        padding-left: 60px;
+    }
+    #contact
+    {
+        position: absolute;
+        top: 480vh;
+        padding-left: 60px;
+    }
+    #about h1
+    {
+        padding: 100px  0 5px;
+        font-size: 50px;
+        font-weight: bolder;
+        line-height: 56px;
+        color: #173b6c;
+        font-family: 'Tiro Telugu', serif;
+    }
+    #contact h1
+    {
+        padding: 100px  0 5px;
+        font-size: 50px;
+        font-weight: bolder;
+        line-height: 56px;
+        color: #173b6c;
+        font-family: 'Tiro Telugu', serif;
+    }
+    
+    #about .container-fluid
+    {
+      padding-left: 60px;
+    }
+    #about p
+    {
+    
+      
+      font-size: 25px;
+      font-family: 'Lato', sans-serif;
+      font-weight: bold;
+      
+    }
+    #about .aboutc
+    {
+    font-size: 21px;
+      width : 70%;
+      margin-bottom: 30px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 500;
+    }
+
+
+    .circle-button {
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    text-align: center;
+    line-height: 50px;
+    font-family: Arial;
+    font-weight : bold;
+    margin : 30px;
+    display: block;
+  }
+  .btn {
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    color: #000000;
+    font-size: 20px;
+    background: #FFB84C;
+    border: solid #000000 2px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #ffffff;
+    text-decoration: none;
+    border: solid #000000 2px;
+
+  }
+  .about-btn
+  {
+    
+    position: absolute;
+    right: 7%;
+    top: 15%;
+    
+  }
+  .btn1
+  {
+    background: #F0A04B;
+  }
+  .btn2
+  {
+    background: #F55050;
+  }
+  .btn3
+  {
+    background: #8BF5FA;
+  }
+
+    #education h1
+    {
+        padding: 100px  0 5px;
+        font-size: 50px;
+        font-weight: bolder;
+        line-height: 56px;
+        color: #173b6c;
+        font-family: 'Tiro Telugu', serif;
+        margin-bottom: 40px;
+        
+    }
+    #education .container-fluid
+    {
+      padding-left: 60px;
+    }
+    .timeline {
+      position: relative;
+      max-width: 1200px;
+      margin: 0 ;
+    }
+    
+    .container {
+      position: relative;
+      padding: 30px 40px;
+
+    }
+    
+    .content1 {
+      position: relative;
+      border-left: 2px solid #ccc;
+      margin-left: 50px;
+      padding-left: 30px;
+    }
+    
+    .content1 h2 {
+      font-size: 30px;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    .content1 a {
+      margin: 0;
+      font-size: 22px;
+      line-height: 1.5;
+      color: #555;
+      text-decoration: none;
+    }
+    .content1 p{
+      margin: 0;
+      font-size: 22px;
+      line-height: 1.5;
+      color: #555;
+      
+    }
+    
+    
+    @media screen and (max-width: 600px) {
+      .content {
+        margin-left: 0px;
+        padding-left: 0px;
+        border-left: none;
+      }
+      
+    }
+    #skills h1
+    {
+        padding: 100px  0 5px;
+        font-size: 50px;
+        font-weight: bolder;
+        line-height: 56px;
+        color: #173b6c;
+        font-family: 'Tiro Telugu', serif;
+    }
+    #skills .container-fluid
+    {
+      padding-left: 60px;
+    }
+    .skill-row {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+    }
+    
+    .skill-item {
+      margin: 20px;
+      width: 50vh;
+      display: flex;
+      flex-direction: column;
+    }
+    .skill-percent-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    
+    #skills h3 {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    
+    
+    .skill-bar {
+      width: 100%;
+      height: 30px;
+      background-color: #dcdcdc;
+      position: relative;
+      overflow: hidden;
+      border-radius : 20px;
+    }
+    
+    .skill-fill {
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      animation: fill 1s ease-in-out forwards;
+    }
+    
+    .skill-fill-html {
+      background: linear-gradient(to right, #007bff 0%, #007bff 90%, transparent 90%, transparent 100%);
+      animation-delay: 0.2s;
+    }
+    
+    .skill-fill-css {
+      background: linear-gradient(to right, #007bff 0%, #007bff 80%, transparent 80%, transparent 100%);
+      animation-delay: 0.4s;
+    }
+    
+    .skill-fill-js {
+      background: linear-gradient(to right, #007bff 0%, #007bff 70%, transparent 70%, transparent 100%);
+      animation-delay: 0.6s;
+    }
+    
+    .skill-fill-prg {
+      background: linear-gradient(to right, #007bff 0%, #007bff 90%, transparent 90%, transparent 100%);
+      animation-delay: 0.8s;
+    }
+    .skill-fill-AI {
+      background: linear-gradient(to right, #007bff 0%, #007bff 30%, transparent 30%, transparent 100%);
+      animation-delay: 0.8s;
+    }
+    .skill-fill-PS {
+      background: linear-gradient(to right, #007bff 0%, #007bff 95%, transparent 95%, transparent 100%);
+      animation-delay: 0.8s;
+    }
+    
+    
+    @keyframes fill {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+    }
+    
+    @media screen and (max-width: 600px) {
+      .skill-info h3 {
+        font-size: 20px;
+      }
+      .skill-percent {
+        font-size: 16px;
+      }
+    }
+    #experience h1
+    {
+        padding: 100px  0 0px;
+        font-size: 50px;
+        font-weight: bolder;
+        line-height: 56px;
+        color: #173b6c;
+        font-family: 'Tiro Telugu', serif;
+    }
+    #reach-out {
+      text-align: center; 
+      margin: 50px 0; 
+    }
+    #contact p {
+      font-size: 25px;
+      font-family: 'Lato', sans-serif;
+      font-weight: bold;
+      margin-bottom: 0;
+      
+    }
+    #reach-out hr {
+      width: 50%; 
+      border: none;
+      border-top: 3px solid black;
+      margin: 0 auto; 
+    }
+    #reach-out .fa-brands
+    {
+      font-size: 100px;
+      text-align: center;
+      margin: 5px;
+    }
+    #reach-out .icons
+    {
+      height: 150px;
+      width: 150px;
+      padding: 20px 0;
+      margin: 25px;
+      margin-top: 0px;
+    }
+  
+.about-btn a
+{
+  text-decoration: none;
+  color: black;
+}
