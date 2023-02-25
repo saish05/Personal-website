@@ -16,9 +16,9 @@ body
 {
     align-items: flex-start;
     background-color: #040b14;
-    width: 20rem;
+    width: 120%;
     height: 100vh;
-    padding: 0px;
+    padding: 0;
     
 }
 .navbar
@@ -31,15 +31,15 @@ body
 .navbar-nav
 {
 
-    padding-top: 20px;
+    padding-top: 10%;
 }
 
 .name
 {   
   font-size: 24px;
   font-weight: 600;
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin-top: 10%;
+  margin-bottom: 10%;
   color: white;
   text-align: center;
   font-family: "Poppins", sans-serif;
@@ -55,7 +55,7 @@ body
 {
     text-align: center;
     margin: 0 auto;
-    padding-top: 25px;
+    padding-top: 25%;
 } 
 .navbar-nav a
 {
@@ -67,12 +67,12 @@ body
     background: #212431;
     color: #fff;
     line-height: 1;
-    padding: 9px 0;
+    padding: 5% 0;
     border-radius: 50%;
     display: inline-block;
     width: 36px;
     height: 36px;
-    margin: 1.5px;
+    margin: 1px;
   }
   .icons:hover {
     background: #149ddd;
@@ -99,7 +99,7 @@ body
 }
 .set
 {
-    margin-left: 10px;
+    margin-left: 10%;
 }
 
 nav .navbar-nav li a{
@@ -109,16 +109,9 @@ nav .navbar-nav li a:hover
 {
     color: #808080 !important;  
 }
-.rightmost
-{
-    margin-top: 10px;
-    position:fixed;
-    /* left :90%; */
-    top: 7%;
-    right: 10%;
-}
+
 #name2 h1 {
-    margin: 0 0 10px 0;
+    margin: 0 0 1% 0;
     font-size: 74px;
     font-weight: 700;
     line-height: 56px;
@@ -128,14 +121,12 @@ nav .navbar-nav li a:hover
   
   #name2 p {
     color: #fff;
-    margin-bottom: 50px;
     font-size: 26px;
     font-family: "Poppins", sans-serif;
   }
   
   #name2 p span {
     color: #fff;
-    padding-bottom: 4px;
     letter-spacing: 1px;
     border-bottom: 3px solid #149ddd;
   }       
@@ -145,42 +136,47 @@ nav .navbar-nav li a:hover
     
     .content
     {
-        position: absolute;
-        top: 40%;
-        left: 35%;
+        
+        padding-top: 20%;
+        padding-bottom: 28%;
+        padding-left: 31%;
     }
     #firstpage
     {
-        height: 100vh;
+        
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment:fixed ;
         background-position: center;
         background-image: url('images/sai1.png');
         background-position: 230px;
+        height: 100vh;
        
     }
     
   }
   
+
    @media (max-width: 992px) {
 
     #firstpage
     {
-        height: 100vh;
+        
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment:fixed ;
         background-position: center;
         background-image: url('images/sai2.png');
+        height: 100vh;
     
         
     }
     .content 
     {
-      position: absolute;
-        top: 35%;
-        left :10%;
+      
+      padding-top: 40%;
+      padding-bottom: 48%;
+      padding-left: 6%;
         
     }
     #name2 h1 {
@@ -193,76 +189,62 @@ nav .navbar-nav li a:hover
       }
     
   }
-         
+  
+  .rightmost
+  {
+      margin-top: 10px;
+      position:fixed;
+      /* left :90%; */
+      top: 7%;
+      right: 10%;
+  }     
 
   @media (min-width :992px)
   {
     #about
     {
-      margin-left: 300px;
+      margin-left: 20%;
     }
     #education
     {
-      margin-left: 300px;
+      margin-left: 20%;
     }
     #experience
     {
-      margin-left: 300px;
+      margin-left: 20%;
     }
     #skills
     {
-      margin-left: 300px;
+      margin-left: 20%;
     }
     #contact
     {
-      margin-left: 300px;
+      margin-left: 20%;
     }
     
   }
+.ai
+{
+  width: 23%;
+  height: 30%;
+  position: absolute;
+  right: 3%;
+
+}
   #about
     {
-      position: absolute;
-      top: 100vh;
-      padding-top: 30px;
-      padding-left: 60px;
-    
+      padding-left: 2%;
+      padding-top: 3%;
+      
     }
     #education
     {
-        position: absolute;
-        top: 200vh;
-        padding-left: 60px;
+      padding-left: 2%;
     }
-    #experience
-    {
-        position: absolute;
-        top: 380vh;
-        padding-left: 60px;
-    }
-    #skills
-    {
-        position: absolute;
-        top: 300vh;
-        padding-left: 60px;
-    }
-    #contact
-    {
-        position: absolute;
-        top: 480vh;
-        padding-left: 60px;
-    }
+   
     #about h1
     {
-        padding: 100px  0 5px;
-        font-size: 50px;
-        font-weight: bolder;
-        line-height: 56px;
-        color: #173b6c;
-        font-family: 'Tiro Telugu', serif;
-    }
-    #contact h1
-    {
-        padding: 100px  0 5px;
+        padding: 3%  0 3%;
         font-size: 50px;
         font-weight: bolder;
         line-height: 56px;
@@ -272,7 +254,7 @@ nav .navbar-nav li a:hover
     
     #about .container-fluid
     {
-      padding-left: 60px;
+      padding-left: 2%;
     }
     #about p
     {
@@ -285,15 +267,26 @@ nav .navbar-nav li a:hover
     }
     #about .aboutc
     {
-    font-size: 21px;
-      width : 70%;
+      font-size: 21px;
+      width : 60%;
       margin-bottom: 30px;
       font-family: 'Roboto', sans-serif;
       font-weight: 500;
     }
 
-
+    .about-btn a
+    {
+      text-decoration: none;
+      color: black;
+    }
+    .about-btn
+    {
+      padding-top: 1%;
+      padding-left: 7%;
+      padding-bottom: 3%;
+        }
     .circle-button {
+
     border-radius: 50%;
     width: 130px;
     height: 130px;
@@ -301,10 +294,10 @@ nav .navbar-nav li a:hover
     line-height: 50px;
     font-family: Arial;
     font-weight : bold;
-    margin : 30px;
-    display: block;
+    margin : 4%;
+    display: inline-block;
   }
-  .btn {
+  .bttn {
     -webkit-border-radius: 60;
     -moz-border-radius: 60;
     border-radius: 50%;
@@ -316,9 +309,14 @@ nav .navbar-nav li a:hover
     background: #FFB84C;
     border: solid #000000 2px;
     text-decoration: none;
+    
   }
+  .about-btn button
+  {
+    padding: 0;
+  } 
   
-  .btn:hover {
+  .bttn:hover {
     background: #ffffff;
     text-decoration: none;
     border: solid #000000 2px;
@@ -326,11 +324,7 @@ nav .navbar-nav li a:hover
   }
   .about-btn
   {
-    
-    position: absolute;
-    right: 7%;
-    top: 15%;
-    
+    margin-left: 150px;
   }
   .btn1
   {
@@ -345,53 +339,52 @@ nav .navbar-nav li a:hover
     background: #8BF5FA;
   }
 
+  
+  
+  /*education */
+
     #education h1
     {
-        padding: 100px  0 5px;
+        padding: 5%  0 1%;
+        padding-bottom: 1%;
         font-size: 50px;
         font-weight: bolder;
         line-height: 56px;
         color: #173b6c;
         font-family: 'Tiro Telugu', serif;
-        margin-bottom: 40px;
+        margin-bottom: 0px;
         
     }
     #education .container-fluid
     {
-      padding-left: 60px;
+      padding-left: 6%;
     }
-    .timeline {
+    #education .container {
       position: relative;
-      max-width: 1200px;
-      margin: 0 ;
+      padding: 3% 0;
+  
     }
-    
-    .container {
-      position: relative;
-      padding: 30px 40px;
-
-    }
-    
-    .content1 {
+   
+    #education .content1 {
       position: relative;
       border-left: 2px solid #ccc;
       margin-left: 50px;
       padding-left: 30px;
     }
     
-    .content1 h2 {
+    #education .content1 h2 {
       font-size: 30px;
       margin-bottom: 10px;
       font-weight: bold;
     }
-    .content1 a {
+    #education .content1 a {
       margin: 0;
       font-size: 22px;
       line-height: 1.5;
       color: #555;
       text-decoration: none;
     }
-    .content1 p{
+    #education .content1 p{
       margin: 0;
       font-size: 22px;
       line-height: 1.5;
@@ -400,17 +393,19 @@ nav .navbar-nav li a:hover
     }
     
     
-    @media screen and (max-width: 600px) {
-      .content {
-        margin-left: 0px;
-        padding-left: 0px;
-        border-left: none;
-      }
-      
+    
+    #skills
+    {
+        position: absolute;
+        top: 300vh;
+        padding-left: 60px;
+        
+      padding-bottom: 100px;
     }
+    
     #skills h1
     {
-        padding: 100px  0 5px;
+        padding: 10%  0 5%;
         font-size: 50px;
         font-weight: bolder;
         line-height: 56px;
@@ -419,12 +414,14 @@ nav .navbar-nav li a:hover
     }
     #skills .container-fluid
     {
-      padding-left: 60px;
+      padding-top: 5%;
+      padding-left: 6%;
+  
     }
     .skill-row {
       display: flex;
       justify-content: space-between;
-      margin-bottom: 30px;
+      margin-bottom: 3%;
     }
     
     .skill-item {
@@ -444,7 +441,7 @@ nav .navbar-nav li a:hover
       font-size: 24px;
       font-weight: bold;
     }
-    
+  
     
     .skill-bar {
       width: 100%;
@@ -511,47 +508,150 @@ nav .navbar-nav li a:hover
     }
     #experience h1
     {
-        padding: 100px  0 0px;
+        padding-top: 13%;
+        padding-bottom: 5%;
         font-size: 50px;
         font-weight: bolder;
         line-height: 56px;
         color: #173b6c;
         font-family: 'Tiro Telugu', serif;
     }
-    #reach-out {
-      text-align: center; 
-      margin: 50px 0; 
+   
+  #experience
+  {
+      position: absolute;
+      top: 400vh;
+      padding-left: 60px;
+  }
+  
+  .container {
+    position: relative;
+    padding: 6% 0;
+
+  }
+ 
+  .content1 {
+    position: relative;
+    border-left: 2px solid #ccc;
+    margin-left: 50px;
+    padding-left: 30px;
+  }
+  
+  .content1 h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  .content1 a {
+    margin: 0;
+    font-size: 22px;
+    line-height: 1.5;
+    color: #555;
+    text-decoration: none;
+  }
+  .content1 p{
+    margin: 0;
+    font-size: 22px;
+    line-height: 1.5;
+    color: #555;
+    
+  }
+  #contact
+  {
+      position: absolute;
+      top: 500vh;
+      padding-left: 2%;
+  }
+  #contact h1
+    {
+        padding-bottom: 1%;
+        font-size: 50px;
+        font-weight: bolder;
+        line-height: 56px;
+        color: #173b6c;
+        font-family: 'Tiro Telugu', serif;
     }
+    
     #contact p {
+      margin-bottom: 4%;
       font-size: 25px;
       font-family: 'Lato', sans-serif;
       font-weight: bold;
-      margin-bottom: 0;
+      
       
     }
-    #reach-out hr {
-      width: 50%; 
-      border: none;
-      border-top: 3px solid black;
-      margin: 0 auto; 
-    }
-    #reach-out .fa-brands
-    {
-      font-size: 100px;
-      text-align: center;
-      margin: 5px;
-    }
-    #reach-out .icons
-    {
-      height: 150px;
-      width: 150px;
-      padding: 20px 0;
-      margin: 25px;
-      margin-top: 0px;
-    }
-  
-.about-btn a
-{
-  text-decoration: none;
-  color: black;
+        
+form.contFrm {
+  max-width: 80%;
+  margin: auto;
 }
+
+.inptFld {
+  width: 100%;
+  height: 50px;
+  border: 0;
+  margin: 0 0 10px;
+  border-radius: 8\0px;
+  padding: 0 20px;
+  font-size: 16px;
+  color: #000;
+  outline: 1px solid #000;
+  
+}
+
+.inptFld:focus {
+  outline-offset: -4px;
+  outline: 1px solid #f93;
+}
+
+.contFrm textarea {
+  height: 75px;
+  padding-top: 5px;
+}
+.inptBtn {
+  height: 50px;
+  border: 0;
+  background: #00b055;
+  font-size: 14px;
+  color: #fff;
+  margin: auto;
+  letter-spacing: 1px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 200px;
+}
+.inptBtn:hover
+{
+  background: #000;
+}
+#reach-out {
+  text-align: center; 
+  margin-left: 60px;
+  margin-top: 70px;
+  padding-bottom: 30px;
+   
+}
+#reach-out hr {
+  width: 50%; 
+  border: none;
+  border-top: 3px solid black;
+  margin: 0 auto; 
+}
+
+
+
+#reach-out .icons
+{
+  height: 50px;
+  width: 50px;
+  padding: 1% 0;
+  margin: 2%;
+  margin-top: 0px;
+}
+#reach-out .fa-brands
+{
+  font-size: 30px;
+  text-align: center;
+  
+}
+
