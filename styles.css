@@ -237,10 +237,7 @@ nav .navbar-nav li a:hover
       padding-top: 3%;
       
     }
-    #education
-    {
-      padding-left: 2%;
-    }
+   
    
     #about h1
     {
@@ -342,7 +339,10 @@ nav .navbar-nav li a:hover
   
   
   /*education */
-
+  #education
+  {
+    padding-left: 2%;
+  }
     #education h1
     {
         padding: 5%  0 1%;
@@ -360,13 +360,13 @@ nav .navbar-nav li a:hover
       padding-left: 6%;
     }
     #education .container {
-      position: relative;
+      
       padding: 3% 0;
   
     }
    
     #education .content1 {
-      position: relative;
+      
       border-left: 2px solid #ccc;
       margin-left: 50px;
       padding-left: 30px;
@@ -393,19 +393,15 @@ nav .navbar-nav li a:hover
     }
     
     
-    
+  
     #skills
     {
-        position: absolute;
-        top: 300vh;
-        padding-left: 60px;
-        
-      padding-bottom: 100px;
+        padding-left: 2%;
+      padding-bottom: 10%;
     }
-    
     #skills h1
     {
-        padding: 10%  0 5%;
+        padding: 10%  0 2%;
         font-size: 50px;
         font-weight: bolder;
         line-height: 56px;
@@ -423,25 +419,23 @@ nav .navbar-nav li a:hover
       justify-content: space-between;
       margin-bottom: 3%;
     }
-    
     .skill-item {
-      margin: 20px;
+      margin: 1%;
       width: 50vh;
       display: flex;
       flex-direction: column;
     }
+    #skills h3 {
+      font-size: 24px;
+      font-weight: bold;
+    }
+  
     .skill-percent-text {
       position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
     }
-    
-    #skills h3 {
-      font-size: 24px;
-      font-weight: bold;
-    }
-  
     
     .skill-bar {
       width: 100%;
@@ -451,7 +445,6 @@ nav .navbar-nav li a:hover
       overflow: hidden;
       border-radius : 20px;
     }
-    
     .skill-fill {
       height: 100%;
       position: absolute;
@@ -459,7 +452,6 @@ nav .navbar-nav li a:hover
       left: 0;
       animation: fill 1s ease-in-out forwards;
     }
-    
     .skill-fill-html {
       background: linear-gradient(to right, #007bff 0%, #007bff 90%, transparent 90%, transparent 100%);
       animation-delay: 0.2s;
@@ -487,8 +479,6 @@ nav .navbar-nav li a:hover
       background: linear-gradient(to right, #007bff 0%, #007bff 95%, transparent 95%, transparent 100%);
       animation-delay: 0.8s;
     }
-    
-    
     @keyframes fill {
       from {
         width: 0;
@@ -506,10 +496,16 @@ nav .navbar-nav li a:hover
         font-size: 16px;
       }
     }
+    #experience
+  {
+      padding-left: 2%;
+      padding-bottom: 3%;
+  }
+
     #experience h1
     {
-        padding-top: 13%;
-        padding-bottom: 5%;
+        padding-top: 4%;
+        padding-bottom: 4%;
         font-size: 50px;
         font-weight: bolder;
         line-height: 56px;
@@ -517,29 +513,24 @@ nav .navbar-nav li a:hover
         font-family: 'Tiro Telugu', serif;
     }
    
-  #experience
-  {
-      position: absolute;
-      top: 400vh;
-      padding-left: 60px;
-  }
+  
   
   .container {
-    position: relative;
-    padding: 6% 0;
+    
+    padding: 4% 0;
 
   }
  
   .content1 {
-    position: relative;
+    
     border-left: 2px solid #ccc;
-    margin-left: 50px;
-    padding-left: 30px;
+    margin-left: 5%;
+    padding-left: 3%;
   }
   
   .content1 h2 {
     font-size: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 1%;
     font-weight: bold;
   }
   .content1 a {
@@ -556,11 +547,12 @@ nav .navbar-nav li a:hover
     color: #555;
     
   }
+
+
   #contact
   {
-      position: absolute;
-      top: 500vh;
       padding-left: 2%;
+      padding-bottom: 3%;
   }
   #contact h1
     {
